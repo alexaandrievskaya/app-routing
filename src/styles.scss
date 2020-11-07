@@ -2,3 +2,14 @@ a.active {
   background-color: red;
   color: white;
 }
+
+p {
+  &::first-letter {
+    font-size: 3rem;
+    color: red;
+  }
+}
+
+span {
+  font-weight: bold;
+}

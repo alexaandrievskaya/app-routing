@@ -1,0 +1,34 @@
+h1 {
+  color: darkblue;
+}
+
+h2 {
+  color: darkmagenta;
+}
+
+h3 {
+  color: darkred;
+}
+
+h4 {
+  color: orangered;
+}
+
+p {
+  color: cornflowerblue;
+
+  &::first-line {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+:host {
+  border: 2px solid red;
+  display: block;
+  margin: 20px;
+}
+
+:host span {
+  border-bottom: 2px solid orange;
+}

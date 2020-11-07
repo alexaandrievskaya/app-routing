@@ -1,0 +1,23 @@
+h3 {
+  color: darkcyan;
+}
+
+h4 {
+  color: cadetblue;
+}
+
+:host {
+  border: 2px solid red;
+  display: block;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+:host-context(.bg-dark) p {
+  color: red;
+}
+
+:host-context(.bg-light) p {
+  color: darkgrey;
+}
